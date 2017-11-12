@@ -1,4 +1,4 @@
-#Pembuatan auth dengan guard dan provider :
+# Pembuatan auth dengan guard dan provider :
 
 1. setting config/auth.php untuk menambahkan guard dan provider baru
 2. membuat model yang dipakai menjadi authenticatable
