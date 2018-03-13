@@ -6,3 +6,5 @@
 4. membuat middleware untuk redirect user yang belum login atau sudah login
 5. mendaftarkan middleware di kernel.php
 6. membuat route group pada web.php
+
+![Auth map](https://raw.githubusercontent.com/mnindrazaka/laravel-auth/master/auth%20map.jpeg)
