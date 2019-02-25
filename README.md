@@ -1,10 +1,14 @@
-# Pembuatan auth dengan guard dan provider :
+# Laravel Authentication
 
-1. setting config/auth.php untuk menambahkan guard dan provider baru
-2. membuat model yang dipakai menjadi authenticatable
-3. membuat controller login dan menambahkan trait Illuminate\Foundation     \Auth\AuthenticatesUsers
-4. membuat middleware untuk redirect user yang belum login atau sudah login
-5. mendaftarkan middleware di kernel.php
-6. membuat route group pada web.php
+Sample implementation of laravel authentication using guard and provider
+
+## How to make authentication on laravel :
+
+1. create new guard and provider on `config/auth.php`
+2. create model for authentication and extends Authenticatable class
+3. create login controller and use `Illuminate\Foundation\Auth\AuthenticatesUsers` trait
+4. create middleware to redirect authenticated user and unauthenticated user
+5. register the middleware to `kernel.php`
+6. create route group on web.php and use the middleware
 
 ![Auth map](https://raw.githubusercontent.com/mnindrazaka/laravel-auth/master/auth%20map.jpeg)
